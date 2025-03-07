@@ -37,4 +37,10 @@ npm create vite@latest
   cd Helium
   npm install
   npm run dev
-  ```
+```
+
+* Add Tailwind CSS
+
+```
+npm install tailwindcss @tailwindcss/vite
+```
