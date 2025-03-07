@@ -1,13 +1,14 @@
 // src/components/LandingScreen.tsx
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { LoginForm } from '@/components/ui/login-form';
 
 export default function LandingScreen() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <h1 className="text-4xl font-bold mb-6">Welcome to the Landing Screen</h1>
-      <p className="text-xl mb-8">This is your new landing page</p>
-      <Button>Explore More</Button>
+    <div className="flex min-h-svh flex-col items-center justify-center bg-muted p-6 md:p-10">
+    <div className="w-full max-w-sm md:max-w-3xl">
+      <LoginForm />
     </div>
+  </div>
   );
 }
