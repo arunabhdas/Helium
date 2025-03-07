@@ -42,3 +42,9 @@ Ok to proceed? (y) y
   npm install
   npm run dev
   ```
+
+  - Add TailwindCSS using
+
+```
+npm install tailwindcss @tailwindcss/vite
+```
