@@ -8,15 +8,11 @@ Helium is a personal finances financial tracker app for keeping track of your po
   to bootstrap a new React Javascript project using Vite
 ```
 npm create vite@latest
-
 ```
 
+- 
 ```
 ╰─❯ npm create vite@latest
-Need to install the following packages:
-create-vite@6.3.1
-Ok to proceed? (y) y
-
 
 > npx
 > create-vite
@@ -32,7 +28,7 @@ Ok to proceed? (y) y
 │  React
 │
 ◇  Select a variant:
-│  JavaScript
+│  TypeScript
 │
 ◇  Scaffolding project in /Users/coder/repos/arunabhdas/githubrepos/Helium/Helium...
 │
@@ -42,9 +38,3 @@ Ok to proceed? (y) y
   npm install
   npm run dev
   ```
-
-  - Add TailwindCSS using
-
-```
-npm install tailwindcss @tailwindcss/vite
-```
