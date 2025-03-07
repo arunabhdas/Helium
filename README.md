@@ -2,6 +2,10 @@
 Helium is a personal finances financial tracker app for keeping track of your portfolio and finances
 
 
+## Screnshots
+
+![Screenshot 1](https://raw.githubusercontent.com/arunabhdas/Helium/refs/heads/main/screenshots/helium_screenshot_1.png)
+
 ## Steps
 
 - Follow instructions at https://ui.shadcn.com/docs/installation/vite
