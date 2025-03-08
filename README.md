@@ -4,6 +4,7 @@ Helium is a personal finances financial tracker app for keeping track of your po
 
 ## Screnshots
 
+![Demo 1](https://github.com/arunabhdas/Helium/blob/main/screenshots/helium_1.gif?raw=true)
 ![Screenshot 1](https://raw.githubusercontent.com/arunabhdas/Helium/refs/heads/main/screenshots/helium_screenshot_1.png)
 
 ## Steps
