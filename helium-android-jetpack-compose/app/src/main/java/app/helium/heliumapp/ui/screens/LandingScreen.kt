@@ -405,16 +405,6 @@ fun LandingScreen(
             ) {
                 Text(text = "Connect")
             }
-            /* TODO-FIXME-CLEANUP
-            Spacer(modifier = Modifier.height(8.dp))
-            Text(
-                text = "Please go to the app settings and allow the missing permissions",
-                style = MaterialTheme.typography.body1.copy(color = Color.White),
-                modifier = Modifier.padding(10.dp),
-                textAlign = TextAlign.Center
-            )
-            */
-
 
             RequestMultiplePermissions(
                 permissions = listOf(
