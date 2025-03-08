@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Definitions for gradients -->
+  <defs>
+    <!-- Background gradient - dark navy blue -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1432"/>
+      <stop offset="100%" stop-color="#1E3A78"/>
+    </linearGradient>
+    
+    <!-- Gold gradient for H and circular elements -->
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFDC73"/>
+      <stop offset="100%" stop-color="#D4AF37"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="200" height="200" rx="50" ry="50" fill="url(#bg)"/>
+  
+  <!-- Circle border -->
+  <circle cx="100" cy="100" r="75" fill="none" stroke="url(#gold)" stroke-width="1"/>
+  
+  <!-- Gold H from the reference image -->
+  <g transform="translate(70, 55)">
+    <!-- Left vertical line -->
+    <rect x="0" y="0" width="10" height="90" fill="url(#gold)"/>
+    
+    <!-- Right vertical line -->
+    <rect x="50" y="0" width="10" height="90" fill="url(#gold)"/>
+    
+    <!-- Curved connecting line -->
+    <path d="M10,45 C20,35 40,35 50,45" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Wave decoration at bottom of circle -->
+  <g transform="translate(25, 130)">
+    <!-- Multiple wave lines with varying density -->
+    <path d="M0,0 C12.5,5 25,-5 37.5,0 C50,5 62.5,-5 75,0 C87.5,5 100,-5 112.5,0 C125,5 137.5,-5 150,0" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,3 C12.5,8 25,-2 37.5,3 C50,8 62.5,-2 75,3 C87.5,8 100,-2 112.5,3 C125,8 137.5,-2 150,3" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,6 C12.5,11 25,1 37.5,6 C50,11 62.5,1 75,6 C87.5,11 100,1 112.5,6 C125,11 137.5,1 150,6" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,9 C12.5,14 25,4 37.5,9 C50,14 62.5,4 75,9 C87.5,14 100,4 112.5,9 C125,14 137.5,4 150,9" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,12 C12.5,17 25,7 37.5,12 C50,17 62.5,7 75,12 C87.5,17 100,7 112.5,12 C125,17 137.5,7 150,12" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,15 C12.5,20 25,10 37.5,15 C50,20 62.5,10 75,15 C87.5,20 100,10 112.5,15 C125,20 137.5,10 150,15" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,18 C12.5,23 25,13 37.5,18 C50,23 62.5,13 75,18 C87.5,23 100,13 112.5,18 C125,23 137.5,13 150,18" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,21 C12.5,26 25,16 37.5,21 C50,26 62.5,16 75,21 C87.5,26 100,16 112.5,21 C125,26 137.5,16 150,21" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+    <path d="M0,24 C12.5,29 25,19 37.5,24 C50,29 62.5,19 75,24 C87.5,29 100,19 112.5,24 C125,29 137.5,19 150,24" stroke="url(#gold)" stroke-width="0.3" fill="none"/>
+  </g>
+</svg>
