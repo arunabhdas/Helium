@@ -5,6 +5,11 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'shadcn-nuxt'
   ],
+  colorMode: {
+    classSuffix: '',
+    preference: 'system', // default value of $colorMode.preference
+    fallback: 'dark', // fallback value if not system preference found
+  },
   shadcn: {
      /**
      * Prefix for all the imported component
